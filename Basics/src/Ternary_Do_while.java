@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 public class Ternary_Do_while {
     public static void main(String[] args) {
+
 //        int a = 30, b = 50;
 //        int largest = (a > b) ? a : b;
 //        System.out.println("Largest = " + largest);
@@ -16,13 +17,13 @@ public class Ternary_Do_while {
 
 
 
-            //Table of 2 using loop
+                //Table of 2 using loop
 //        for (int i = 1; i <= 10; i++){
 //            System.out.println("2 * " + i + " = " + (2 * i));
 //        }
 
 
-            //using whle loop
+                //using whle loop
 //        int i = 1;
 //        while(i <= 10){
 //            System.out.println("2 * " + i + " = " + (2 * i));
@@ -30,13 +31,13 @@ public class Ternary_Do_while {
 //        }
 
 
-            //do while exit control loop
-            int i =1;
-            do{
-                System.out.println("2 * " + i + " = " +( 2 * i));
-                i++;
-            }
-            while(i<=10);
-        }
+                //do while exit control loop
+                int i =1;
+                do{
+                    System.out.println("2 * " + i + " = " +( 2 * i));
+                    i++;
+                }
+                while(i<=10);
 
+    }
 }
